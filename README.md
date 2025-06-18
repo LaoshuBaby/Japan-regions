@@ -1,7 +1,7 @@
 # 日本の地方区分
 
 ## はじめに
-[NSI(name-suggestion-index)](https://github.com/osmlab/name-suggestion-index)の都道府県ファイルを使用して作成しました。ライセンスはNSIに準拠します。また、作成に関して、OpenStreetMapのデータを参考にしています。
+[NSI(name-suggestion-index)](https://github.com/osmlab/name-suggestion-index)の都道府県ファイルを使用して作成しました。ライセンスはNSI及びOpenStreetMapに準拠します。また、作成に関して、OpenStreetMapのデータを参考にしています。
 データはNSI用に作成しているため県境などが大幅に簡略化されています。
 
 
