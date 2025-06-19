@@ -4,7 +4,6 @@
 [NSI(name-suggestion-index)](https://github.com/osmlab/name-suggestion-index)の都道府県ファイルを使用して作成しました。ライセンスはNSI及びOpenStreetMapに準拠します。また、作成に関して、OpenStreetMapのデータを参考にしています。
 データはNSI用に作成しているため県境などが大幅に簡略化されています。
 
-
 ## 八地方区分
 - JP-Hokkaido - 北海道地方 (北海道)
 - JP-Tohoku - 東北地方 (青森県、岩手県、宮城県、秋田県、山形県、福島県)
@@ -63,3 +62,27 @@
 - [JP-45.geojson](https://location-conflation.com/?locationSet=%7B%22include%22%3A%5B%22jp-45.geojson%22%5D%7D&referrer=nsi) - Miyazaki (宮崎県)
 - [JP-46.geojson](https://location-conflation.com/?locationSet=%7B%22include%22%3A%5B%22jp-46.geojson%22%5D%7D&referrer=nsi) - Kagoshima (鹿児島県)
 - [JP-47.geojson](https://location-conflation.com/?locationSet=%7B%22include%22%3A%5B%22jp-47.geojson%22%5D%7D&referrer=nsi) - Okinawa (沖縄県)
+
+## 特別な及び普段な使う区分
+
+### 鉄道
+
+- [Propose] jp-jr-east.geojson
+- [Propose] jp-jr-west.geojson
+- [Propose] jp-jr-tokai.geojson
+- [Propose] jp-jr-shikoku.geojson
+- [Propose] jp-jr-hokkaido.geojson
+- [Propose] jp-jr-kyushu.geojson
+
+### 高速道路
+
+- [Propose] jp-nexco-east.geojson
+- [Propose] jp-nexco-west.geojson
+- [Propose] jp-nexco-central.geojson
+
+### 電話電信
+
+NTT東日本とNTT西日本のGeoJSONフェイルがNSIにありました。
+
+- [jp-ntt-east.geojson](https://location-conflation.com/?locationSet=%7B%22include%22%3A%5B%22jp-ntt-east.geojson%22%5D%7D&referrer=nsi) - NTT East (NTT東日本)
+- [jp-ntt-east.geojson](https://location-conflation.com/?locationSet=%7B%22include%22%3A%5B%22jp-ntt-west.geojson%22%5D%7D&referrer=nsi) - NTT West (NTT西日本)
